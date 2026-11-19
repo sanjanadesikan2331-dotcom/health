@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#16A36A" />
+  <meta name="description" content="HEALTHIFY is a smart health and food management platform that helps you understand your health, plan balanced meals and build healthier daily habits." />
+  <title>HEALTHIFY — Eat Smart. Live Healthy. Stay Happy.</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Poppins:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="no-js">
+
+  <!-- ============================================================
+       SKIP LINK (accessibility)
+  ============================================================ -->
+  <a class="skip-link" href="#home" data-en="Skip to main content" data-ta="முக்கிய உள்ளடக்கத்திற்குச் செல்லுங்கள்">Skip to main content</a>
+
+  <!-- ============================================================
+       SECTION 1 - NAVIGATION
+  ============================================================ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="HEALTHIFY home">
+        <img class="brand-icon" src="assets/icons/logo.svg" alt="" width="40" height="40" />
+        <span class="brand-name">HEALTH<span>IFY</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary navigation">
+        <a class="nav-link" href="#home" data-en="Home" data-ta="முகப்பு">Home</a>
+        <a class="nav-link" href="#about" data-en="About" data-ta="எங்களைப் பற்றி">About</a>
+        <a class="nav-link" href="#features" data-en="Features" data-ta="அம்சங்கள்">Features</a>
+        <a class="nav-link" href="#health-tracker" data-en="Health Tracker" data-ta="உடல்நல கண்காணிப்பு">Health Tracker</a>
+        <a class="nav-link" href="#food" data-en="Food &amp; Recipes" data-ta="உணவு &amp; சமையல்">Food &amp; Recipes</a>
+        <a class="nav-link" href="#contact" data-en="Contact" data-ta="தொடர்பு">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language to Tamil" title="English / தமிழ்">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.5 3.8 5.6 3.8 9S14.5 18.5 12 21c-2.5-2.5-3.8-5.6-3.8-9S9.5 5.5 12 3z"/></svg>
+          <span id="lang-label">EN</span>
+        </button>
+        <a class="btn btn-primary btn-sm" href="#health-tracker" id="get-started" data-en="Get Started" data-ta="தொடங்குங்கள்">Get Started</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         SECTION 2 - HERO
+    ============================================================ -->
+    <section class="hero" id="home">
+      <div class="hero-shape shape-one" aria-hidden="true"></div>
+      <div class="hero-shape shape-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow" data-en="SMART HEALTH & FOOD PLATFORM" data-ta="ஸ்மார்ட் உடல்நல & உணவு தளம்">SMART HEALTH &amp; FOOD PLATFORM</span>
+          <h1><span class="text-accent" data-en="Your Health," data-ta="உங்கள் உடல்நலம்,">Your Health,</span> <span data-en="Your Food, Your Better Tomorrow." data-ta="உங்கள் உணவு, உங்கள் சிறந்த நாளே.">Your Food, Your Better Tomorrow.</span></h1>
+          <p class="hero-text" data-en="Take control of your lifestyle with smart health tracking, personalized food suggestions and simple wellness management." data-ta="ஸ்மார்ட் உடல்நல கண்காணிப்பு, தனிப்பட்ட உணவு பரிந்துரைகள் மற்றும் எளிய நல்வாழ்வு மேலாண்மை மூலம் உங்கள் வாழ்க்கை முறையை கட்டுப்படுத்துங்கள்.">Take control of your lifestyle with smart health tracking, personalized food suggestions and simple wellness management.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#features" id="explore-features" data-en="Explore Features" data-ta="அம்சங்களை ஆராயுங்கள்">Explore Features</a>
+            <a class="btn btn-outline" href="#health-tracker" id="start-journey" data-en="Start Your Health Journey" data-ta="உங்கள் உடல்நல பயணத்தைத் தொடங்குங்கள்">Start Your Health Journey</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-avatars" aria-hidden="true"><span>PS</span><span>AR</span><span>KM</span></div>
+            <p data-en="Trusted by 12,000+ wellness learners" data-ta="12,000+ நல்வாழ்வு பயனர்களால் நம்பப்படுகிறது">Trusted by 12,000+ wellness learners</p>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrap">
+            <img class="hero-image" src="assets/images/hero.jpg" data-fallback="assets/images/fallback.jpg" alt="A colourful bowl of fresh vegetables and healthy food" width="1600" height="1067" loading="eager" />
+            <div class="hero-glow" aria-hidden="true"></div>
+          </div>
+
+          <!-- floating stat cards -->
+          <div class="float-card float-card-top">
+            <span class="float-icon icon-mint">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 5.6a5.5 5.5 0 0 0-7.8 0L12 6.6l-1.1-1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg>
+            </span>
+            <div><strong data-en="Healthy Lifestyle" data-ta="ஆரோக்கியமான வாழ்க்கை">Healthy Lifestyle</strong><small data-en="Build better habits daily" data-ta="நாள்தோறும் நல்ல பழக்கங்கள்">Build better habits daily</small></div>
+          </div>
+          <div class="float-card float-card-bottom">
+            <span class="float-icon icon-orange">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C7 2 4 6 4 11c0 5 3 9 8 11 5-2 8-6 8-11 0-5-3-9-8-9z"/><path d="M12 2c0 5-3 7-3 11M12 2c0 5 3 7 3 11"/></svg>
+            </span>
+            <div><strong data-en="Smart Food Choices" data-ta="ஸ்மார்ட் உணவு தேர்வுகள்">Smart Food Choices</strong><small data-en="Know what you eat" data-ta="நீங்கள் சாப்பிடுவதை அறியுங்கள்">Know what you eat</small></div>
+          </div>
+          <div class="float-pill float-pill-one">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>
+            <span data-en="Daily Wellness" data-ta="நாள் நல்வாழ்வு">Daily Wellness</span>
+          </div>
+          <div class="float-pill float-pill-two">
+            <span class="pulse-dot"></span>
+            <span data-en="92% on track" data-ta="92% சரியான பாதையில்">92% on track</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero-stats reveal">
+        <div class="stat-item"><strong>12k+</strong><span data-en="Active users" data-ta="செயலில் உள்ள பயனர்கள்">Active users</span></div>
+        <div class="stat-item"><strong>350+</strong><span data-en="Healthy recipes" data-ta="ஆரோக்கிய சமையல்">Healthy recipes</span></div>
+        <div class="stat-item"><strong>7</strong><span data-en="Health topics" data-ta="உடல்நல தலைப்புகள்">Health topics</span></div>
+        <div class="stat-item"><strong>100%</strong><span data-en="Private & local" data-ta="தனிப்பட்ட & உள்ளூர்">Private &amp; local</span></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 3 - ABOUT
+    ============================================================ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-en="ABOUT HEALTHIFY" data-ta="HEALTHIFY ஐப் பற்றி">ABOUT HEALTHIFY</span>
+          <h2 data-en="Making Healthy Living Simple." data-ta="ஆரோக்கியமான வாழ்க்கையை எளிதாக்குகிறோம்.">Making Healthy Living Simple.</h2>
+          <p data-en="HEALTHIFY brings your health information and food choices together in one calm, friendly space. No confusing medical words — just clear guidance, simple trackers and small steps you can actually keep." data-ta="HEALTHIFY உங்கள் உடல்நல தகவல்கள் மற்றும் உணவு தேர்வுகளை ஒரு எளிய, நட்பான இடத்தில் ஒழுங்கமைக்கிறது. குழப்பமான மருத்துவ சொற்கள் இல்லை — தெளிவான வழிகாட்டுதலும் எளிய கண்காணிப்பும் மட்டுமே.">HEALTHIFY brings your health information and food choices together in one calm, friendly space. No confusing medical words — just clear guidance, simple trackers and small steps you can actually keep.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card reveal">
+            <div class="icon-tile icon-tile-mint">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg>
+            </div>
+            <h3 data-en="Smart Health Monitoring" data-ta="ஸ்மார்ட் உடல்நல கண்காணிப்பு">Smart Health Monitoring</h3>
+            <p data-en="Track water, activity and daily habits in one place. See gentle progress indicators that encourage consistency, not pressure." data-ta="நீர், உடற்பயிற்சி மற்றும் நாள் பழக்கங்களை ஒரே இடத்தில் கண்காணிக்கவும். அழுத்தம் தராத எளிய முன்னேற்ற காட்டிகளைக் காணவும்.">Track water, activity and daily habits in one place. See gentle progress indicators that encourage consistency, not pressure.</p>
+            <a class="text-link" href="#health-tracker" data-en="Open tracker" data-ta="கண்காணிப்பைத் திறக்க">Open tracker <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="about-card reveal">
+            <div class="icon-tile icon-tile-orange">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c5 0 9-4 9-9H3c0 5 4 9 9 9z"/><path d="M12 12V7M12 7c-2-2-5-2-6 1 2 2 4 2 6-1zM12 7c2-2 5-2 6 1-2 2-4 2-6-1z"/></svg>
+            </div>
+            <h3 data-en="Healthy Food Planning" data-ta="ஆரோக்கிய உணவு திட்டமிடல்">Healthy Food Planning</h3>
+            <p data-en="Explore simple, familiar foods and build a balanced daily meal plan with easy add, edit and remove controls." data-ta="எளிய, பழக்கமான உணவுகளை ஆராய்ந்து, சேர் / திருத்த / அகற்ற எளிய கட்டுப்பாடுகளுடன் சமநிலையான நாள் உணவு திட்டத்தை உருவாக்குங்கள்.">Explore simple, familiar foods and build a balanced daily meal plan with easy add, edit and remove controls.</p>
+            <a class="text-link" href="#food" data-en="Explore foods" data-ta="உணவுகளை ஆராயுங்கள்">Explore foods <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="about-card reveal">
+            <div class="icon-tile icon-tile-blue">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v6c0 5-3.4 7.6-8 8-4.6-.4-8-3-8-8V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3 data-en="Simple Lifestyle Management" data-ta="எளிய வாழ்க்கை முறை மேலாண்மை">Simple Lifestyle Management</h3>
+            <p data-en="Understand key health topics, get practical food guidance and save your own data privately on this device." data-ta="முக்கிய உடல்நல தலைப்புகளைப் புரிந்துகொண்டு, நடைமுறை உணவு வழிகாட்டுதலைப் பெற்று, உங்கள் தரவை இந்த சாதனத்தில் தனிப்பட்டதாக சேமிக்கவும்.">Understand key health topics, get practical food guidance and save your own data privately on this device.</p>
+            <a class="text-link" href="#features" data-en="See features" data-ta="அம்சங்களைக் காண்க">See features <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 4 - HEALTH CONDITION SELECTOR (also anchor: features)
+    ============================================================ -->
+    <section class="section section-tinted" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-en="HEALTH LIBRARY" data-ta="உடல்நல நூலகம்">HEALTH LIBRARY</span>
+          <h2 data-en="Understand Your Health Better." data-ta="உங்கள் உடல்நலத்தை நன்கு புரிந்துகொள்ளுங்கள்.">Understand Your Health Better.</h2>
+          <p data-en="Choose a topic to read simple, educational guidance." data-ta="எளிய, கல்வி சார்ந்த தகவல்களைப் படிக்க ஒரு தலைப்பைத் தேர்ந்தெடுக்கவும்.">Choose a topic to read simple, educational guidance.</p>
+          <div class="disclaimer-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+            <span data-en="Educational information only. Not medical advice, diagnosis or treatment." data-ta="கல்வி நோக்கத்திற்கான தகவல் மட்டுமே. மருத்துவ ஆலோசனை, நோய் கண்டறிதல் அல்லது சிகிச்சை அல்ல.">Educational information only. Not medical advice, diagnosis or treatment.</span>
+          </div>
+        </div>
+
+        <div class="condition-grid" id="condition-grid">
+          <button class="condition-card reveal" type="button" data-condition="diabetes">
+            <span class="condition-icon ci-orange"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M7 8h10M7 8c0 3-3 3-3 6s2 4 4 4M17 8c0 3 3 3 3 6s-2 4-4 4"/></svg></span>
+            <strong data-en="Diabetes / Blood Sugar" data-ta="நீரிழிவு / இரத்த சர்க்கரை">Diabetes / Blood Sugar</strong>
+            <span data-en="Understand sugar balance and everyday food choices." data-ta="சர்க்கரை சமநிலை மற்றும் நாள் உணவு தேர்வுகளைப் புரிந்துகொள்ளுங்கள்.">Understand sugar balance and everyday food choices.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="bloodpressure">
+            <span class="condition-icon ci-red"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a7 7 0 0 0 7-7c0-4-3-6-7-11-4 5-7 7-7 11a7 7 0 0 0 7 7z"/><path d="M12 11v5"/></svg></span>
+            <strong data-en="Blood Pressure" data-ta="இரத்த அழுத்தம்">Blood Pressure</strong>
+            <span data-en="Learn about salt, movement and calm daily routines." data-ta="உப்பு, உடற்பயிற்சி மற்றும் அமைதியான நாள் பழக்கங்களைப் பற்றி அறியுங்கள்.">Learn about salt, movement and calm daily routines.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="obesity">
+            <span class="condition-icon ci-purple"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg></span>
+            <strong data-en="Obesity" data-ta="உடல் பருமன்">Obesity</strong>
+            <span data-en="Focus on sustainable habits and balanced portions." data-ta="நீடித்த பழக்கங்கள் மற்றும் சமநிலையான அளவுகளில் கவனம் செலுத்துங்கள்.">Focus on sustainable habits and balanced portions.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="heart">
+            <span class="condition-icon ci-rose"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 5.6a5.5 5.5 0 0 0-7.8 0L12 6.6l-1.1-1a5.5 5.5 0 0 0-7.8 7.8L12 22l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></svg></span>
+            <strong data-en="Heart Health" data-ta="இதய ஆரோக்கியம்">Heart Health</strong>
+            <span data-en="Everyday steps that support a healthy heart." data-ta="ஆரோக்கியமான இதயத்திற்கு உதவும் நாள் படிகள்.">Everyday steps that support a healthy heart.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="joint">
+            <span class="condition-icon ci-blue"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v6a5 5 0 0 0 10 0V3M4 3h6M14 3h6M9 18v3M15 18v3"/></svg></span>
+            <strong data-en="Joint Pain" data-ta="மூட்டு வலி">Joint Pain</strong>
+            <span data-en="Gentle movement and habit ideas for comfort." data-ta="வசதிக்கான மென்மையான உடற்பயிற்சி மற்றும் பழக்க ஆலோசனைகள்.">Gentle movement and habit ideas for comfort.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="cold">
+            <span class="condition-icon ci-teal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M4.5 6l15 12M19.5 6l-15 12"/></svg></span>
+            <strong data-en="Cold &amp; Fever" data-ta="சளி & காய்ச்சல்">Cold &amp; Fever</strong>
+            <span data-en="Rest, fluids and simple care reminders." data-ta="ஓய்வு, திரவங்கள் மற்றும் எளிய பராமரிப்பு நினைவூட்டல்கள்.">Rest, fluids and simple care reminders.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+          <button class="condition-card reveal" type="button" data-condition="wellness">
+            <span class="condition-icon ci-green"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2L12 3z"/><path d="M19 17l.8 2.2L22 20l-2.2.8L19 23l-.8-2.2L16 20l2.2-.8L19 17z"/></svg></span>
+            <strong data-en="General Wellness" data-ta="பொது நல்வாழ்வு">General Wellness</strong>
+            <span data-en="Build a balanced routine that works for you." data-ta="உங்களுக்கு ஏற்ற சமநிலையான நாள் பழக்கத்தை உருவாக்குங்கள்.">Build a balanced routine that works for you.</span>
+            <span class="explore-link" data-en="Explore" data-ta="ஆராயுங்கள்">Explore <span aria-hidden="true">→</span></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 5 - PERSONAL HEALTH PROFILE
+    ============================================================ -->
+    <section class="section" id="health-tracker">
+      <div class="container profile-layout">
+        <div class="profile-intro reveal">
+          <span class="eyebrow" data-en="YOUR PROFILE" data-ta="உங்கள் சுயவிவரம்">YOUR PROFILE</span>
+          <h2 data-en="Let's Start With You." data-ta="முதலில் உங்களைப் பற்றி அறிவோம்.">Let's Start With You.</h2>
+          <p data-en="Enter a few basic details to personalise your dashboard. Your information stays in this browser — nothing is uploaded." data-ta="உங்கள் டாஷ்போர்டை தனிப்பயனாக்க சில அடிப்படை தகவல்களை உள்ளிடவும். உங்கள் தகவல் இந்த உலாவியிலேயே உள்ளது — எங்கும் அனுப்பப்படுவதில்லை.">Enter a few basic details to personalise your dashboard. Your information stays in this browser — nothing is uploaded.</p>
+          <ul class="feature-list">
+            <li><span class="check-dot">✓</span><span data-en="Private by design — saved on your device" data-ta="தனிப்பட்டதாக — உங்கள் சாதனத்தில் சேமிக்கப்படும்">Private by design — saved on your device</span></li>
+            <li><span class="check-dot">✓</span><span data-en="Easy-to-read BMI education indicator" data-ta="படிக்க எளிதான BMI கல்வி காட்டி">Easy-to-read BMI education indicator</span></li>
+            <li><span class="check-dot">✓</span><span data-en="Works offline after first load" data-ta="முதல் ஏற்றத்திற்குப் பிறகு இணையமின்றி வேலை செய்யும்">Works offline after first load</span></li>
+          </ul>
+          <img class="profile-illustration" src="assets/images/about.jpg" data-fallback="assets/images/fallback.jpg" alt="Person relaxing in a calm, healthy lifestyle setting" loading="lazy" />
+        </div>
+
+        <form class="profile-form card reveal" id="profile-form" novalidate>
+          <h3 data-en="Create Your Health Profile" data-ta="உங்கள் உடல்நல சுயவிவரத்தை உருவாக்குங்கள்">Create Your Health Profile</h3>
+          <p class="form-hint" data-en="All fields marked * are required." data-ta="* குறிக்கப்பட்ட அனைத்து புலங்களும் கட்டாயம்.">All fields marked * are required.</p>
+
+          <div class="field">
+            <label for="profile-name" data-en="Full name *" data-ta="முழு பெயர் *">Full name *</label>
+            <input type="text" id="profile-name" name="name" autocomplete="name" maxlength="60" placeholder="e.g. Ananya" data-en-ph="e.g. Ananya" data-ta-ph="உதாரணம்: அனன்யா" />
+            <small class="error-text" id="error-name" hidden data-en="Please enter your name (at least 2 letters)." data-ta="உங்கள் பெயரை உள்ளிடவும் (குறைந்தது 2 எழுத்துக்கள்).">Please enter your name (at least 2 letters).</small>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="profile-age" data-en="Age (years) *" data-ta="வயது (ஆண்டுகள்) *">Age (years) *</label>
+              <input type="number" id="profile-age" name="age" min="2" max="120" placeholder="28" inputmode="numeric" />
+              <small class="error-text" id="error-age" hidden data-en="Enter an age between 2 and 120." data-ta="2 முதல் 120 வரை வயதை உள்ளிடவும்.">Enter an age between 2 and 120.</small>
+            </div>
+            <div class="field">
+              <label for="profile-gender" data-en="Gender (optional)" data-ta="பாலினம் (விருப்பம்)">Gender (optional)</label>
+              <select id="profile-gender" name="gender">
+                <option value="" data-en="Prefer not to say" data-ta="கூற விரும்பவில்லை">Prefer not to say</option>
+                <option value="female" data-en="Female" data-ta="பெண்">Female</option>
+                <option value="male" data-en="Male" data-ta="ஆண்">Male</option>
+                <option value="other" data-en="Prefer to describe differently" data-ta="வேறுபட்டு கூற விரும்புகிறேன்">Prefer to describe differently</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="profile-height" data-en="Height (cm) *" data-ta="உயரம் (செ.மீ) *">Height (cm) *</label>
+              <input type="number" id="profile-height" name="height" min="80" max="250" step="0.1" placeholder="165" inputmode="decimal" />
+              <small class="error-text" id="error-height" hidden data-en="Enter height between 80 and 250 cm." data-ta="80 முதல் 250 செ.மீ வரை உயரம் உள்ளிடவும்.">Enter height between 80 and 250 cm.</small>
+            </div>
+            <div class="field">
+              <label for="profile-weight" data-en="Weight (kg) *" data-ta="எடை (கிலோ) *">Weight (kg) *</label>
+              <input type="number" id="profile-weight" name="weight" min="10" max="300" step="0.1" placeholder="62" inputmode="decimal" />
+              <small class="error-text" id="error-weight" hidden data-en="Enter weight between 10 and 300 kg." data-ta="10 முதல் 300 கிலோ வரை எடை உள்ளிடவும்.">Enter weight between 10 and 300 kg.</small>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="profile-activity" data-en="Activity level *" data-ta="உடற்பயிற்சி நிலை *">Activity level *</label>
+              <select id="profile-activity" name="activity">
+                <option value="low" data-en="Mostly seated / low activity" data-ta="பெரும்பாலும் உட்கார்ந்து / குறைந்த உடற்பயிற்சி">Mostly seated / low activity</option>
+                <option value="moderate" data-en="Moderately active" data-ta="மிதமான உடற்பயிற்சி">Moderately active</option>
+                <option value="high" data-en="Very active" data-ta="அதிக உடற்பயிற்சி">Very active</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="profile-diet" data-en="Food preference *" data-ta="உணவு விருப்பம் *">Food preference *</label>
+              <select id="profile-diet" name="diet">
+                <option value="vegetarian" data-en="Vegetarian" data-ta="சைவம்">Vegetarian</option>
+                <option value="nonvegetarian" data-en="Non-vegetarian" data-ta="அசைவம்">Non-vegetarian</option>
+                <option value="vegan" data-en="Vegan / plant-based" data-ta="வீகன் / தாவர அடிப்படை">Vegan / plant-based</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit" data-en="Save Profile" data-ta="சுயவிவரத்தை சேமிக்கவும்">Save Profile</button>
+          <p class="form-note" data-en="You can edit and save again at any time." data-ta="எப்போதும் திருத்தி மீண்டும் சேமிக்கலாம்.">You can edit and save again at any time.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 6 - SMART HEALTH DASHBOARD
+    ============================================================ -->
+    <section class="section section-tinted" id="dashboard">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <span class="eyebrow" data-en="YOUR DASHBOARD" data-ta="உங்கள் டாஷ்போர்டு">YOUR DASHBOARD</span>
+            <h2 data-en="Your Daily Health Snapshot." data-ta="உங்கள் நாள் உடல்நலப் படம்.">Your Daily Health Snapshot.</h2>
+          </div>
+          <button class="btn btn-ghost btn-sm" id="reset-data" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+            <span data-en="Reset all saved data" data-ta="சேமித்த அனைத்து தரவையும் அழிக்க">Reset all saved data</span>
+          </button>
+        </div>
+
+        <div class="dashboard-grid">
+          <!-- profile card -->
+          <article class="dash-card dash-profile reveal">
+            <div class="dash-card-head"><h3 data-en="Profile" data-ta="சுயவிவரம்">Profile</h3><span class="live-badge"><span></span><span data-en="Saved locally" data-ta="உள்ளூரில் சேமிக்கப்பட்டது">Saved locally</span></span></div>
+            <div class="profile-mini">
+              <div class="avatar" id="dash-avatar" aria-hidden="true">HI</div>
+              <div><strong id="dash-name" data-en="No profile yet" data-ta="இதுவரை சுயவிவரம் இல்லை">No profile yet</strong><span id="dash-meta" data-en="Save your profile to begin" data-ta="தொடங்க உங்கள் சுயவிவரத்தைச் சேமிக்கவும்">Save your profile to begin</span></div>
+            </div>
+            <div class="mini-stats">
+              <div><span data-en="Age" data-ta="வயது">Age</span><strong id="dash-age">—</strong></div>
+              <div><span data-en="Activity" data-ta="உடற்பயிற்சி">Activity</span><strong id="dash-activity">—</strong></div>
+              <div><span data-en="Diet" data-ta="உணவு">Diet</span><strong id="dash-diet">—</strong></div>
+            </div>
+            <a class="text-link" href="#health-tracker" data-en="Edit profile" data-ta="சுயவிவரத்தை திருத்த">Edit profile <span aria-hidden="true">→</span></a>
+          </article>
+
+          <!-- BMI card -->
+          <article class="dash-card dash-bmi reveal">
+            <div class="dash-card-head"><h3 data-en="BMI Indicator" data-ta="BMI காட்டி">BMI Indicator</h3><span class="info-icon" title="Body Mass Index is an educational screening indicator only." aria-label="BMI information">i</span></div>
+            <div class="bmi-main">
+              <div class="bmi-value-wrap"><strong id="bmi-value">—</strong><small data-en="kg/m²" data-ta="kg/m²">kg/m²</small></div>
+              <span class="bmi-badge" id="bmi-category" data-en="Add your details" data-ta="உங்கள் விவரங்களைச் சேர்க்கவும்">Add your details</span>
+            </div>
+            <div class="bmi-scale" aria-hidden="true"><div class="bmi-marker" id="bmi-marker"></div></div>
+            <div class="bmi-labels" aria-hidden="true"><span data-en="Under" data-ta="குறைவு">Under</span><span data-en="Healthy range" data-ta="ஆரோக்கிய வரம்பு">Healthy range</span><span data-en="Above" data-ta="அதிகம்">Above</span></div>
+            <p class="bmi-note" id="bmi-note" data-en="BMI is a simple screening tool. It does not measure muscle, bone or overall health. Ask a healthcare professional for personal advice." data-ta="BMI என்பது எளிய பரிசோதனை கருவி மட்டுமே. இது தசை, எலும்பு அல்லது ஒட்டுமொத்த உடல்நலத்தை அளக்கவில்லை. தனிப்பட்ட ஆலோசனைக்கு மருத்துவ நிபுணரை அணுகவும்.">BMI is a simple screening tool. It does not measure muscle, bone or overall health. Ask a healthcare professional for personal advice.</p>
+          </article>
+
+          <!-- water tracker -->
+          <article class="dash-card dash-water reveal">
+            <div class="dash-card-head"><h3 data-en="Water Tracker" data-ta="நீர் கண்காணிப்பு">Water Tracker</h3><span class="drop-icon" aria-hidden="true">💧</span></div>
+            <div class="water-figure">
+              <div class="water-glass"><div class="water-fill" id="water-fill"></div><span id="water-percent">0%</span></div>
+              <div class="water-copy"><strong><span id="water-current">0</span> <span data-en="glasses" data-ta="கிளாஸ்கள்">glasses</span></strong><span data-en="Goal: 8 glasses a day" data-ta="இலக்கு: நாளொன்றுக்கு 8 கிளாஸ்கள்">Goal: 8 glasses a day</span></div>
+            </div>
+            <div class="progress-track"><div class="progress-fill progress-water" id="water-progress"></div></div>
+            <div class="button-row">
+              <button class="btn btn-primary btn-sm" id="add-water" type="button">+ <span data-en="Add Water" data-ta="நீர் சேர்">Add Water</span></button>
+              <button class="btn btn-ghost btn-sm" id="remove-water" type="button" data-en="Undo" data-ta="திரும்பப்பெறு">Undo</button>
+            </div>
+          </article>
+
+          <!-- meal tracker -->
+          <article class="dash-card dash-meals reveal">
+            <div class="dash-card-head"><h3 data-en="Daily Meals" data-ta="நாள் உணவு">Daily Meals</h3><span id="meal-count">0/4</span></div>
+            <div class="meal-checks" id="meal-tracker">
+              <label class="meal-check"><input type="checkbox" data-meal="breakfast" /><span class="custom-check"></span><span data-en="Breakfast" data-ta="காலை உணவு">Breakfast</span></label>
+              <label class="meal-check"><input type="checkbox" data-meal="lunch" /><span class="custom-check"></span><span data-en="Lunch" data-ta="மதிய உணவு">Lunch</span></label>
+              <label class="meal-check"><input type="checkbox" data-meal="snacks" /><span class="custom-check"></span><span data-en="Snacks" data-ta="இடையூணவு">Snacks</span></label>
+              <label class="meal-check"><input type="checkbox" data-meal="dinner" /><span class="custom-check"></span><span data-en="Dinner" data-ta="இரவு உணவு">Dinner</span></label>
+            </div>
+            <div class="progress-track"><div class="progress-fill progress-orange" id="meal-progress"></div></div>
+            <p class="micro-copy" id="meal-tracker-tip" data-en="Tick each meal as you finish it." data-ta="உணவு முடிந்ததும் டிக் செய்யவும்.">Tick each meal as you finish it.</p>
+          </article>
+
+          <!-- activity tracker -->
+          <article class="dash-card dash-activity reveal">
+            <div class="dash-card-head"><h3 data-en="Activity" data-ta="உடற்பயிற்சி">Activity</h3><span id="activity-total">0 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <form class="inline-form" id="activity-form">
+              <label class="sr-only" for="activity-name" data-en="Activity name" data-ta="உடற்பயிற்சி பெயர்">Activity name</label>
+              <input type="text" id="activity-name" maxlength="40" placeholder="e.g. Walking" data-en-ph="e.g. Walking" data-ta-ph="உதாரணம்: நடத்தல்" />
+              <label class="sr-only" for="activity-minutes" data-en="Minutes" data-ta="நிமிடங்கள்">Minutes</label>
+              <input type="number" id="activity-minutes" min="1" max="600" placeholder="20" inputmode="numeric" />
+              <button class="btn btn-primary btn-sm" type="submit" data-en="Add" data-ta="சேர்">Add</button>
+            </form>
+            <ul class="activity-list" id="activity-list"><li class="empty-note" data-en="No activities added today." data-ta="இன்று எந்த உடற்பயிற்சியும் சேர்க்கப்படவில்லை.">No activities added today.</li></ul>
+            <div class="progress-track"><div class="progress-fill progress-purple" id="activity-progress"></div></div>
+            <p class="micro-copy" data-en="Daily movement goal: 30 minutes" data-ta="நாள் உடற்பயிற்சி இலக்கு: 30 நிமிடங்கள்">Daily movement goal: 30 minutes</p>
+          </article>
+
+          <!-- reminders -->
+          <article class="dash-card dash-reminders reveal">
+            <div class="dash-card-head"><h3 data-en="Wellness Reminders" data-ta="நல்வாழ்வு நினைவூட்டல்கள்">Wellness Reminders</h3><span class="sun-icon" aria-hidden="true">☀️</span></div>
+            <ul class="reminder-list">
+              <li><span class="reminder-dot dot-mint"></span><span data-en="Take a short walk after meals" data-ta="உணவுக்குப் பிறகு சிறிது நடக்கவும்">Take a short walk after meals</span></li>
+              <li><span class="reminder-dot dot-orange"></span><span data-en="Keep a water bottle nearby" data-ta="நீர் பாட்டிலை அருகில் வைத்துக்கொள்ளுங்கள்">Keep a water bottle nearby</span></li>
+              <li><span class="reminder-dot dot-blue"></span><span data-en="Include a fruit or vegetable daily" data-ta="நாள்தோறும் பழம் அல்லது காய்கறி சாப்பிடவும்">Include a fruit or vegetable daily</span></li>
+              <li><span class="reminder-dot dot-purple"></span><span data-en="Sleep 7–8 hours when possible" data-ta="முடிந்தால் 7–8 மணி நேரம் தூங்கவும்">Sleep 7–8 hours when possible</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 7 - SMART FOOD MANAGEMENT
+    ============================================================ -->
+    <section class="section" id="food">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-en="FOOD LIBRARY" data-ta="உணவு நூலகம்">FOOD LIBRARY</span>
+          <h2 data-en="Discover Food That Supports Your Lifestyle." data-ta="உங்கள் வாழ்க்கை முறைக்கு ஏற்ற உணவுகளைக் கண்டறியுங்கள்.">Discover Food That Supports Your Lifestyle.</h2>
+          <p data-en="Browse familiar, everyday foods. Filter by category or diet preference and add your favourites to the meal planner." data-ta="பழக்கமான நாள் உணவுகளை உலாவுங்கள். வகை அல்லது உணவு விருப்பத்தின்படி வடிகட்டி, விருப்பமானவற்றை உணவு திட்டத்தில் சேர்க்கவும்.">Browse familiar, everyday foods. Filter by category or diet preference and add your favourites to the meal planner.</p>
+        </div>
+
+        <div class="filter-bar reveal" role="group" aria-label="Food filters">
+          <button class="filter-btn active" type="button" data-food-filter="all" data-en="All Foods" data-ta="அனைத்து உணவுகள்">All Foods</button>
+          <button class="filter-btn" type="button" data-food-filter="fruits" data-en="Fruits" data-ta="பழங்கள்">Fruits</button>
+          <button class="filter-btn" type="button" data-food-filter="vegetables" data-en="Vegetables" data-ta="காய்கறிகள்">Vegetables</button>
+          <button class="filter-btn" type="button" data-food-filter="protein" data-en="Protein-rich" data-ta="புரதம் நிறைந்த">Protein-rich</button>
+          <button class="filter-btn" type="button" data-food-filter="grains" data-en="Whole Grains" data-ta="முழு தானியங்கள்">Whole Grains</button>
+          <button class="filter-btn" type="button" data-food-filter="snacks" data-en="Healthy Snacks" data-ta="ஆரோக்கிய சிற்றுண்டி">Healthy Snacks</button>
+          <button class="filter-btn" type="button" data-food-filter="traditional" data-en="Indian Foods" data-ta="இந்திய உணவுகள்">Indian Foods</button>
+          <button class="filter-btn" type="button" data-food-filter="vegetarian" data-en="Vegetarian" data-ta="சைவம்">Vegetarian</button>
+          <button class="filter-btn" type="button" data-food-filter="nonvegetarian" data-en="Non-vegetarian" data-ta="அசைவம்">Non-vegetarian</button>
+        </div>
+
+        <div class="food-grid" id="food-grid">
+          <article class="food-card reveal" data-category="fruits" data-diet="vegetarian" data-food="Apple">
+            <div class="food-img-wrap"><img src="assets/images/apple.jpg" data-fallback="assets/images/fallback.jpg" alt="Fresh red apples" loading="lazy" /><span class="food-badge" data-en="Fruits" data-ta="பழங்கள்">Fruits</span></div>
+            <div class="food-body"><h3 data-en="Apple" data-ta="ஆப்பிள்">Apple</h3><p data-en="Crunchy fruit with natural fibre." data-ta="இயற்கை நார்ச்சத்துடன் கூடிய மொறுமொறுப்பான பழம்.">Crunchy fruit with natural fibre.</p><div class="nutrition"><span data-en="Fibre" data-ta="நார்ச்சத்து">Fibre</span><span data-en="Vitamin C" data-ta="விட்டமின் சி">Vitamin C</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="fruits" data-diet="vegetarian" data-food="Banana">
+            <div class="food-img-wrap"><img src="assets/images/banana.jpg" data-fallback="assets/images/fallback.jpg" alt="Ripe bananas" loading="lazy" /><span class="food-badge" data-en="Fruits" data-ta="பழங்கள்">Fruits</span></div>
+            <div class="food-body"><h3 data-en="Banana" data-ta="வாழைப்பழம்">Banana</h3><p data-en="Quick energy with potassium." data-ta="பொட்டாசியத்துடன் விரைவான ஆற்றல்.">Quick energy with potassium.</p><div class="nutrition"><span data-en="Potassium" data-ta="பொட்டாசியம்">Potassium</span><span data-en="Energy" data-ta="ஆற்றல்">Energy</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="vegetables" data-diet="vegetarian" data-food="Spinach">
+            <div class="food-img-wrap"><img src="assets/images/spinach.jpg" data-fallback="assets/images/fallback.jpg" alt="Fresh green spinach leaves" loading="lazy" /><span class="food-badge" data-en="Vegetables" data-ta="காய்கறிகள்">Vegetables</span></div>
+            <div class="food-body"><h3 data-en="Spinach" data-ta="பசலைக் கீரை">Spinach</h3><p data-en="Leafy green packed with nutrients." data-ta="சத்துக்கள் நிறைந்த பச்சை இலைக் காய்.">Leafy green packed with nutrients.</p><div class="nutrition"><span data-en="Iron" data-ta="இரும்புச்சத்து">Iron</span><span data-en="Folate" data-ta="ஃபோலேட்">Folate</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="vegetables" data-diet="vegetarian" data-food="Broccoli">
+            <div class="food-img-wrap"><img src="assets/images/broccoli.jpg" data-fallback="assets/images/fallback.jpg" alt="Fresh broccoli florets" loading="lazy" /><span class="food-badge" data-en="Vegetables" data-ta="காய்கறிகள்">Vegetables</span></div>
+            <div class="food-body"><h3 data-en="Broccoli" data-ta="ப்ரோக்கோலி">Broccoli</h3><p data-en="Cruciferous vegetable full of fibre." data-ta="நார்ச்சத்து நிறைந்த காய்கறி.">Cruciferous vegetable full of fibre.</p><div class="nutrition"><span data-en="Fibre" data-ta="நார்ச்சத்து">Fibre</span><span data-en="Vitamin K" data-ta="விட்டமின் கே">Vitamin K</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="grains" data-diet="vegetarian" data-food="Oats">
+            <div class="food-img-wrap"><img src="assets/images/oats.jpg" data-fallback="assets/images/fallback.jpg" alt="Uncooked oats in a bowl" loading="lazy" /><span class="food-badge" data-en="Whole Grains" data-ta="முழு தானியங்கள்">Whole Grains</span></div>
+            <div class="food-body"><h3 data-en="Oats" data-ta="ஓட்ஸ்">Oats</h3><p data-en="Whole grain that keeps you full longer." data-ta="நீண்ட நேரம் பசி தணிக்கும் முழு தானியம்.">Whole grain that keeps you full longer.</p><div class="nutrition"><span data-en="Beta-glucan" data-ta="பீட்டா-க்ளூக்கான்">Beta-glucan</span><span data-en="Fibre" data-ta="நார்ச்சத்து">Fibre</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="snacks" data-diet="vegetarian" data-food="Almonds">
+            <div class="food-img-wrap"><img src="assets/images/almonds.jpg" data-fallback="assets/images/fallback.jpg" alt="A handful of almonds" loading="lazy" /><span class="food-badge" data-en="Healthy Snacks" data-ta="ஆரோக்கிய சிற்றுண்டி">Healthy Snacks</span></div>
+            <div class="food-body"><h3 data-en="Almonds" data-ta="பாதாம்">Almonds</h3><p data-en="Nutty crunch with healthy fats." data-ta="ஆரோக்கிய கொழுப்புகளுடன் மொறுமொறுப்பான பருப்பு.">Nutty crunch with healthy fats.</p><div class="nutrition"><span data-en="Vitamin E" data-ta="விட்டமின் ஈ">Vitamin E</span><span data-en="Good fats" data-ta="நல்ல கொழுப்பு">Good fats</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="grains" data-diet="vegetarian" data-food="Ragi">
+            <div class="food-img-wrap"><img src="assets/images/ragi.jpg" data-fallback="assets/images/fallback.jpg" alt="Ragi millet grains" loading="lazy" /><span class="food-badge" data-en="Whole Grains" data-ta="முழு தானியங்கள்">Whole Grains</span></div>
+            <div class="food-body"><h3 data-en="Ragi" data-ta="ராகி">Ragi</h3><p data-en="Traditional millet rich in calcium." data-ta="கால்சியம் நிறைந்த பாரம்பரிய சிறு தானியம்.">Traditional millet rich in calcium.</p><div class="nutrition"><span data-en="Calcium" data-ta="கால்சியம்">Calcium</span><span data-en="Fibre" data-ta="நார்ச்சத்து">Fibre</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="grains" data-diet="vegetarian" data-food="Millets">
+            <div class="food-img-wrap"><img src="assets/images/millets.jpg" data-fallback="assets/images/fallback.jpg" alt="Assorted millet grains" loading="lazy" /><span class="food-badge" data-en="Whole Grains" data-ta="முழு தானியங்கள்">Whole Grains</span></div>
+            <div class="food-body"><h3 data-en="Millets" data-ta="சிறு தானியங்கள்">Millets</h3><p data-en="Diverse grains for everyday meals." data-ta="நாள் உணவுக்கு ஏற்ற பல்வேறு தானியங்கள்.">Diverse grains for everyday meals.</p><div class="nutrition"><span data-en="Complex carbs" data-ta="சிக்கலான கார்ப்">Complex carbs</span><span data-en="Fibre" data-ta="நார்ச்சத்து">Fibre</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="traditional" data-diet="vegetarian" data-food="Idli">
+            <div class="food-img-wrap"><img src="assets/images/idli.jpg" data-fallback="assets/images/fallback.jpg" alt="Steamed idli with chutney" loading="lazy" /><span class="food-badge" data-en="Indian Foods" data-ta="இந்திய உணவுகள்">Indian Foods</span></div>
+            <div class="food-body"><h3 data-en="Idli" data-ta="இட்லி">Idli</h3><p data-en="Steamed, light and easy to digest." data-ta="ஆவியில் வேகவைத்த, இலகுவான உணவு.">Steamed, light and easy to digest.</p><div class="nutrition"><span data-en="Steamed" data-ta="ஆவியில் வேகவைத்தது">Steamed</span><span data-en="Low oil" data-ta="குறைந்த எண்ணெய்">Low oil</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="traditional" data-diet="vegetarian" data-food="Vegetable Dosa">
+            <div class="food-img-wrap"><img src="assets/images/dosa.jpg" data-fallback="assets/images/fallback.jpg" alt="Crispy vegetable dosa" loading="lazy" /><span class="food-badge" data-en="Indian Foods" data-ta="இந்திய உணவுகள்">Indian Foods</span></div>
+            <div class="food-body"><h3 data-en="Vegetable Dosa" data-ta="காய்கறி தோசை">Vegetable Dosa</h3><p data-en="Crisp pancake with a vegetable filling." data-ta="காய்கறி நிரப்பப்பட்ட மொறுமொறுப்பான தோசை.">Crisp pancake with a vegetable filling.</p><div class="nutrition"><span data-en="Fermented" data-ta="புளிக்கவைத்தது">Fermented</span><span data-en="Veggies" data-ta="காய்கறிகள்">Veggies</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="protein" data-diet="nonvegetarian" data-food="Boiled Egg">
+            <div class="food-img-wrap"><img src="assets/images/eggs.jpg" data-fallback="assets/images/fallback.jpg" alt="Boiled eggs" loading="lazy" /><span class="food-badge" data-en="Protein-rich" data-ta="புரதம் நிறைந்த">Protein-rich</span></div>
+            <div class="food-body"><h3 data-en="Boiled Egg" data-ta="வேகவைத்த முட்டை">Boiled Egg</h3><p data-en="Simple, portable source of protein." data-ta="எடுத்துச் செல்ல ஏற்ற எளிய புரத மூலம்.">Simple, portable source of protein.</p><div class="nutrition"><span data-en="Protein" data-ta="புரதம்">Protein</span><span data-en="Choline" data-ta="கோலின்">Choline</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="protein" data-diet="nonvegetarian" data-food="Grilled Chicken">
+            <div class="food-img-wrap"><img src="assets/images/eggs.jpg" data-fallback="assets/images/fallback.jpg" alt="Lean grilled protein food" loading="lazy" /><span class="food-badge" data-en="Protein-rich" data-ta="புரதம் நிறைந்த">Protein-rich</span></div>
+            <div class="food-body"><h3 data-en="Grilled Chicken" data-ta="க்ரில் செய்த கோழி">Grilled Chicken</h3><p data-en="Lean protein prepared with little oil." data-ta="குறைந்த எண்ணெயில் தயாரிக்கப்பட்ட மெல்லிய புரதம்.">Lean protein prepared with little oil.</p><div class="nutrition"><span data-en="Lean protein" data-ta="மெல்லிய புரதம்">Lean protein</span><span data-en="Low oil" data-ta="குறைந்த எண்ணெய்">Low oil</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+
+          <article class="food-card reveal" data-category="snacks" data-diet="vegetarian" data-food="Greek Yogurt">
+            <div class="food-img-wrap"><img src="assets/images/smoothie.jpg" data-fallback="assets/images/fallback.jpg" alt="A bowl of fresh yogurt with fruit" loading="lazy" /><span class="food-badge" data-en="Healthy Snacks" data-ta="ஆரோக்கிய சிற்றுண்டி">Healthy Snacks</span></div>
+            <div class="food-body"><h3 data-en="Greek Yogurt" data-ta="கிரேக்க தயிர்">Greek Yogurt</h3><p data-en="Creamy snack with natural protein." data-ta="இயற்கை புரதத்துடன் கூடிய க்ரீமியான சிற்றுண்டி.">Creamy snack with natural protein.</p><div class="nutrition"><span data-en="Protein" data-ta="புரதம்">Protein</span><span data-en="Calcium" data-ta="கால்சியம்">Calcium</span></div><button class="btn btn-soft btn-sm add-to-planner" type="button" data-en="Add to plan" data-ta="திட்டத்தில் சேர்">Add to plan</button></div>
+          </article>
+        </div>
+        <p class="no-results" id="food-no-results" hidden data-en="No foods match this filter. Try another category." data-ta="இந்த வடிகட்டலுக்கு ஏற்ற உணவுகள் இல்லை. வேறு வகையை முயற்சிக்கவும்.">No foods match this filter. Try another category.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 8 - HEALTHY RECIPE COLLECTION
+    ============================================================ -->
+    <section class="section section-tinted" id="recipes">
+      <div class="container">
+        <div class="section-head section-head-row reveal">
+          <div>
+            <span class="eyebrow" data-en="RECIPE COLLECTION" data-ta="சமையல் குறிப்புகள்">RECIPE COLLECTION</span>
+            <h2 data-en="Cook Something Good Today." data-ta="இன்று ஏதாவது நல்லதை சமைக்கவும்.">Cook Something Good Today.</h2>
+            <p data-en="Simple recipes with everyday ingredients, made for real life." data-ta="நாள் பழக்கமான பொருட்களால் செய்யும் எளிய சமையல் குறிப்புகள்.">Simple recipes with everyday ingredients, made for real life.</p>
+          </div>
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+            <label class="sr-only" for="recipe-search" data-en="Search recipes" data-ta="சமையல் குறிப்புகளைத் தேடுங்கள்">Search recipes</label>
+            <input type="search" id="recipe-search" placeholder="Search recipes..." data-en-ph="Search recipes..." data-ta-ph="சமையல் தேட..." />
+          </div>
+        </div>
+
+        <div class="recipe-grid" id="recipe-grid">
+          <article class="recipe-card reveal" data-recipe="salad">
+            <div class="recipe-img-wrap"><img src="assets/images/fallback.jpg" data-fallback="assets/images/fallback.jpg" alt="Colourful vegetable salad" loading="lazy" /><span class="recipe-time">⏱ 15 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-easy" data-en="Easy" data-ta="எளிது">Easy</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Vegetable Salad" data-ta="காய்கறி சலாத்">Vegetable Salad</h3><p data-en="Cucumber, tomato, carrot and leafy greens with lemon." data-ta="வெள்ளரி, தக்காளி, கேரட், கீரை மற்றும் எலுமிச்சை.">Cucumber, tomato, carrot and leafy greens with lemon.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+
+          <article class="recipe-card reveal" data-recipe="oats">
+            <div class="recipe-img-wrap"><img src="assets/images/oats.jpg" data-fallback="assets/images/fallback.jpg" alt="Oats breakfast bowl with fruit" loading="lazy" /><span class="recipe-time">⏱ 10 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-easy" data-en="Easy" data-ta="எளிது">Easy</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Oats Breakfast Bowl" data-ta="ஓட்ஸ் காலை உணவு">Oats Breakfast Bowl</h3><p data-en="Cooked oats topped with banana, seeds and a little honey." data-ta="வாழைப்பழம், விதைகள் மற்றும் சிறிது தேன் சேர்த்த ஓட்ஸ்.">Cooked oats topped with banana, seeds and a little honey.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+
+          <article class="recipe-card reveal" data-recipe="ragi-dosa">
+            <div class="recipe-img-wrap"><img src="assets/images/dosa.jpg" data-fallback="assets/images/fallback.jpg" alt="Ragi dosa on a plate" loading="lazy" /><span class="recipe-time">⏱ 25 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-medium" data-en="Medium" data-ta="நடுத்தரம்">Medium</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Ragi Dosa" data-ta="ராகி தோசை">Ragi Dosa</h3><p data-en="A crisp, calcium-rich twist on the classic dosa." data-ta="கால்சியம் நிறைந்த மொறுமொறுப்பான தோசை.">A crisp, calcium-rich twist on the classic dosa.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+
+          <article class="recipe-card reveal" data-recipe="soup">
+            <div class="recipe-img-wrap"><img src="assets/images/soup.jpg" data-fallback="assets/images/fallback.jpg" alt="Bowl of hot vegetable soup" loading="lazy" /><span class="recipe-time">⏱ 20 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-easy" data-en="Easy" data-ta="எளிது">Easy</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Vegetable Soup" data-ta="காய்கறி சூப்">Vegetable Soup</h3><p data-en="A warm, light bowl of seasonal vegetables and herbs." data-ta="பருவகால காய்கறிகள் மற்றும் மூலிகைகளுடன் சூடான எளிய சூப்.">A warm, light bowl of seasonal vegetables and herbs.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+
+          <article class="recipe-card reveal" data-recipe="smoothie">
+            <div class="recipe-img-wrap"><img src="assets/images/smoothie.jpg" data-fallback="assets/images/fallback.jpg" alt="Fresh fruit smoothie in a glass" loading="lazy" /><span class="recipe-time">⏱ 8 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-easy" data-en="Easy" data-ta="எளிது">Easy</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Fruit Smoothie" data-ta="பழ ஸ்மூத்தி">Fruit Smoothie</h3><p data-en="Banana, berries and yogurt blended until smooth." data-ta="வாழைப்பழம், பெர்ரி மற்றும் தயிர் கலந்த பானம்.">Banana, berries and yogurt blended until smooth.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+
+          <article class="recipe-card reveal" data-recipe="upma">
+            <div class="recipe-img-wrap"><img src="assets/images/upma.jpg" data-fallback="assets/images/fallback.jpg" alt="Millet upma served hot" loading="lazy" /><span class="recipe-time">⏱ 18 <span data-en="min" data-ta="நிமி">min</span></span></div>
+            <div class="recipe-body"><div class="recipe-tags"><span class="tag tag-medium" data-en="Medium" data-ta="நடுத்தரம்">Medium</span><span class="tag tag-veg" data-en="Veg" data-ta="சைவம்">Veg</span></div><h3 data-en="Millet Upma" data-ta="சிறுதானிய உப்பிடு">Millet Upma</h3><p data-en="A wholesome South Indian breakfast with vegetables." data-ta="காய்கறிகளுடன் கூடிய நல்ல தென்னிந்திய காலை உணவு.">A wholesome South Indian breakfast with vegetables.</p><button class="btn btn-outline btn-sm view-recipe" type="button" data-en="View Recipe" data-ta="செய்முறையைக் காண்க">View Recipe</button></div>
+          </article>
+        </div>
+        <p class="no-results" id="recipe-no-results" hidden data-en="No recipes found. Try a different search." data-ta="சமையல் குறிப்புகள் இல்லை. வேறு சொல்லை முயற்சிக்கவும்.">No recipes found. Try a different search.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 9 - DAILY FOOD PLANNER
+    ============================================================ -->
+    <section class="section" id="planner">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-en="DAILY PLANNER" data-ta="நாள் திட்டம்">DAILY PLANNER</span>
+          <h2 data-en="Plan Your Day, One Meal at a Time." data-ta="ஒவ்வொரு உணவாக உங்கள் நாளைத் திட்டமிடுங்கள்.">Plan Your Day, One Meal at a Time.</h2>
+          <p data-en="Add foods to each meal, edit or remove them, then save your plan for tomorrow." data-ta="ஒவ்வொரு உணவிற்கும் உணவுகளைச் சேர்த்து, திருத்தி, அகற்றி, நாளைக்காக உங்கள் திட்டத்தைச் சேமிக்கவும்.">Add foods to each meal, edit or remove them, then save your plan for tomorrow.</p>
+        </div>
+
+        <form class="planner-form card reveal" id="planner-form">
+          <div class="field">
+            <label for="planner-meal" data-en="Meal" data-ta="உணவு நேரம்">Meal</label>
+            <select id="planner-meal">
+              <option value="breakfast" data-en="Breakfast" data-ta="காலை உணவு">Breakfast</option>
+              <option value="lunch" data-en="Lunch" data-ta="மதிய உணவு">Lunch</option>
+              <option value="snacks" data-en="Evening Snacks" data-ta="மாலை சிற்றுண்டி">Evening Snacks</option>
+              <option value="dinner" data-en="Dinner" data-ta="இரவு உணவு">Dinner</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="planner-food" data-en="Food item" data-ta="உணவுப் பொருள்">Food item</label>
+            <input type="text" id="planner-food" maxlength="60" placeholder="e.g. Oats" data-en-ph="e.g. Oats" data-ta-ph="உதாரணம்: ஓட்ஸ்" />
+            <small class="error-text" id="error-planner" hidden data-en="Please enter a food item." data-ta="உணவுப் பொருளை உள்ளிடவும்.">Please enter a food item.</small>
+          </div>
+          <div class="field">
+            <label for="planner-qty" data-en="Quantity / note" data-ta="அளவு / குறிப்பு">Quantity / note</label>
+            <input type="text" id="planner-qty" maxlength="40" placeholder="1 bowl" data-en-ph="1 bowl" data-ta-ph="1 கிளாஸ்" />
+          </div>
+          <button class="btn btn-primary" type="submit" data-en="Add Food" data-ta="உணவு சேர்">Add Food</button>
+        </form>
+
+        <div class="planner-grid" id="planner-grid">
+          <div class="planner-column reveal" data-meal-column="breakfast"><h3><span class="meal-emoji">🌅</span><span data-en="Breakfast" data-ta="காலை உணவு">Breakfast</span></h3><ul class="planner-list" id="planner-breakfast"></ul></div>
+          <div class="planner-column reveal" data-meal-column="lunch"><h3><span class="meal-emoji">☀️</span><span data-en="Lunch" data-ta="மதிய உணவு">Lunch</span></h3><ul class="planner-list" id="planner-lunch"></ul></div>
+          <div class="planner-column reveal" data-meal-column="snacks"><h3><span class="meal-emoji">🍎</span><span data-en="Evening Snacks" data-ta="மாலை சிற்றுண்டி">Evening Snacks</span></h3><ul class="planner-list" id="planner-snacks"></ul></div>
+          <div class="planner-column reveal" data-meal-column="dinner"><h3><span class="meal-emoji">🌙</span><span data-en="Dinner" data-ta="இரவு உணவு">Dinner</span></h3><ul class="planner-list" id="planner-dinner"></ul></div>
+        </div>
+
+        <div class="planner-summary card reveal">
+          <div><strong data-en="Daily Summary" data-ta="நாள் சுருக்கம்">Daily Summary</strong><p id="planner-summary" data-en="Your plan is empty. Add foods above to get started." data-ta="உங்கள் திட்டம் காலியாக உள்ளது. தொடங்க மேலே உணவுகளைச் சேர்க்கவும்.">Your plan is empty. Add foods above to get started.</p></div>
+          <div class="button-row">
+            <button class="btn btn-primary btn-sm" id="save-plan" type="button" data-en="Save Plan" data-ta="திட்டத்தைச் சேமிக்க">Save Plan</button>
+            <button class="btn btn-ghost btn-sm" id="clear-plan" type="button" data-en="Clear Plan" data-ta="திட்டத்தை அழிக்க">Clear Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 10 - EXPIRY DATE REMINDER
+    ============================================================ -->
+    <section class="section section-tinted" id="expiry">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow" data-en="KITCHEN ORGANISER" data-ta="சமையலறை ஒழுங்கமைப்பு">KITCHEN ORGANISER</span>
+          <h2 data-en="Never Forget Food Expiry Dates." data-ta="உணவு காலாவதி தேதிகளை மறக்காதீர்கள்.">Never Forget Food Expiry Dates.</h2>
+          <p data-en="Save products with their purchase and expiry dates. HEALTHIFY shows a simple freshness status — no permission pop-ups, no alarms." data-ta="பொருட்களை அவற்றின் கொள்முதல் மற்றும் காலாவதி தேதிகளுடன் சேமிக்கவும். எளிய புத்துணர்வு நிலையைக் காண்பிக்கும் — அனுமதி பாப்அப்கள் இல்லை, அலாரங்கள் இல்லை.">Save products with their purchase and expiry dates. HEALTHIFY shows a simple freshness status — no permission pop-ups, no alarms.</p>
+        </div>
+
+        <div class="expiry-layout">
+          <form class="expiry-form card reveal" id="expiry-form" novalidate>
+            <h3 data-en="Add a Product" data-ta="பொருள் சேர்">Add a Product</h3>
+            <div class="field">
+              <label for="expiry-name" data-en="Product name *" data-ta="பொருளின் பெயர் *">Product name *</label>
+              <input type="text" id="expiry-name" maxlength="60" placeholder="e.g. Milk" data-en-ph="e.g. Milk" data-ta-ph="உதாரணம்: பால்" />
+              <small class="error-text" id="error-expiry-name" hidden data-en="Enter a product name." data-ta="பொருளின் பெயரை உள்ளிடவும்.">Enter a product name.</small>
+            </div>
+            <div class="field">
+              <label for="expiry-purchase" data-en="Purchase date *" data-ta="கொள்முதல் தேதி *">Purchase date *</label>
+              <input type="date" id="expiry-purchase" />
+              <small class="error-text" id="error-expiry-purchase" hidden data-en="Choose a purchase date." data-ta="கொள்முதல் தேதியைத் தேர்ந்தெடுக்கவும்.">Choose a purchase date.</small>
+            </div>
+            <div class="field">
+              <label for="expiry-date" data-en="Expiry date *" data-ta="காலாவதி தேதி *">Expiry date *</label>
+              <input type="date" id="expiry-date" />
+              <small class="error-text" id="error-expiry-date" hidden data-en="Choose a valid expiry date after the purchase date." data-ta="கொள்முதல் தேதிக்குப் பிறகு செல்லுபடியாகும் தேதியைத் தேர்ந்தெடுக்கவும்.">Choose a valid expiry date after the purchase date.</small>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit" data-en="Save Product" data-ta="பொருளைச் சேமிக்க">Save Product</button>
+          </form>
+
+          <div class="expiry-list-wrap card reveal">
+            <div class="dash-card-head"><h3 data-en="Saved Products" data-ta="சேமித்த பொருட்கள்">Saved Products</h3><span id="expiry-summary">0</span></div>
+            <div class="expiry-list" id="expiry-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECTION 11 - MOTIVATIONAL HEALTH
+    ============================================================ -->
+    <section class="section motivation" id="motivation">
+      <div class="container motivation-grid">
+        <div class="quote-card reveal">
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <span class="eyebrow" data-en="DAILY WELLNESS NOTE" data-ta="நாள் நல்வாழ்வு குறிப்பு">DAILY WELLNESS NOTE</span>
+          <blockquote id="daily-quote" data-en="Small steps, repeated daily, create big changes over time." data-ta="சிறு படிகள், தினமும் தொடர்ந்தால், பெரும் மாற்றங்களை உருவாக்கும்.">Small steps, repeated daily, create big changes over time.</blockquote>
+          <div class="quote-actions">
+            <button class="btn btn-soft btn-sm" id="new-quote" type="button" data-en="Another quote" data-ta="மற்றொரு மேற்கோள்">Another quote</button>
+            <span id="quote-date"></span>
+          </div>
+          <div class="quote-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+
+        <div class="motivation-content reveal">
+          <span class="eyebrow" data-en="KEEP GOING" data-ta="தொடர்ந்து முயற்சிக்கவும்">KEEP GOING</span>
+          <h2 data-en="Small Steps. Big Changes." data-ta="சிறு படிகள். பெரும் மாற்றங்கள்.">Small Steps. Big Changes.</h2>
+          <div class="tip-grid">
+            <article class="tip-card"><span class="tip-icon tip-mint">💧</span><div><h3 data-en="Drink enough water" data-ta="போதுமான நீர் குடிக்கவும்">Drink enough water</h3><p data-en="Keep sipping through the day." data-ta="நாள் முழுவதும் கொஞ்சம் கொஞ்சமாக குடிக்கவும்.">Keep sipping through the day.</p></div></article>
+            <article class="tip-card"><span class="tip-icon tip-orange">🥗</span><div><h3 data-en="Choose balanced meals" data-ta="சமநிலையான உணவு தேர்வு">Choose balanced meals</h3><p data-en="Include grains, protein and vegetables." data-ta="தானியம், புரதம், காய்கறி சேர்க்கவும்.">Include grains, protein and vegetables.</p></div></article>
+            <article class="tip-card"><span class="tip-icon tip-purple">🚶</span><div><h3 data-en="Stay physically active" data-ta="உடல் செயல்பாடுடன் இருக்கவும்">Stay physically active</h3><p data-en="Even a short walk makes a difference." data-ta="குறுகிய நடைப்பயணமும் பயனளிக்கும்.">Even a short walk makes a difference.</p></div></article>
+            <article class="tip-card"><span class="tip-icon tip-blue">😴</span><div><h3 data-en="Keep a regular sleep schedule" data-ta="வழக்கமான தூக்க நேரம்">Keep a regular sleep schedule</h3><p data-en="Rest helps your body recover." data-ta="ஓய்வு உடலை மீண்டும் உயிர்ப்பிக்கிறது.">Rest helps your body recover.</p></div></article>
+            <article class="tip-card"><span class="tip-icon tip-rose">🧠</span><div><h3 data-en="Care for your mind too" data-ta="மனதையும் கவனித்துக்கொள்ளுங்கள்">Care for your mind too</h3><p data-en="Pause, breathe and talk to someone you trust." data-ta="சிறிது நிறுத்தி, சுவாசித்து, நம்பகமானவருடன் பேசுங்கள்.">Pause, breathe and talk to someone you trust.</p></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       SECTION 12 - CONTACT & FOOTER
+  ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home" aria-label="HEALTHIFY home">
+          <img class="brand-icon" src="assets/icons/logo.svg" alt="" width="40" height="40" />
+          <span class="brand-name">HEALTH<span>IFY</span></span>
+        </a>
+        <p data-en="HEALTHIFY is a friendly, educational companion for building healthier food and lifestyle habits. Your data always stays on your device." data-ta="HEALTHIFY என்பது ஆரோக்கியமான உணவு மற்றும் வாழ்க்கை பழக்கங்களை உருவாக்க உதவும் கல்வி நோக்கமுடைய நண்பன். உங்கள் தரவு எப்போதும் உங்கள் சாதனத்திலேயே உள்ளது.">HEALTHIFY is a friendly, educational companion for building healthier food and lifestyle habits. Your data always stays on your device.</p>
+        <p class="footer-tagline" data-en="Your Journey Towards Better Health Starts Here." data-ta="உங்கள் சிறந்த உடல்நலப் பயணம் இங்கே தொடங்குகிறது.">Your Journey Towards Better Health Starts Here.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3 data-en="Quick Links" data-ta="விரைவு இணைப்புகள்">Quick Links</h3>
+        <a href="#home" data-en="Home" data-ta="முகப்பு">Home</a>
+        <a href="#about" data-en="About" data-ta="எங்களைப் பற்றி">About</a>
+        <a href="#features" data-en="Health Topics" data-ta="உடல்நல தலைப்புகள்">Health Topics</a>
+        <a href="#food" data-en="Food &amp; Recipes" data-ta="உணவு & சமையல்">Food &amp; Recipes</a>
+        <a href="#planner" data-en="Meal Planner" data-ta="உணவு திட்டம்">Meal Planner</a>
+      </div>
+
+      <div class="footer-contact">
+        <h3 data-en="Say Hello" data-ta="வணக்கம் சொல்லுங்கள்">Say Hello</h3>
+        <p><span aria-hidden="true">✉</span> hello@healthify.example</p>
+        <p><span aria-hidden="true">⌾</span> <span data-en="Educational project — no server connected" data-ta="கல்வி திட்டம் — சேவையகம் இணைக்கப்படவில்லை">Educational project — no server connected</span></p>
+      </div>
+
+      <form class="footer-form" id="contact-form" novalidate>
+        <h3 data-en="Send a Message" data-ta="செய்தி அனுப்பவும்">Send a Message</h3>
+        <div class="field">
+          <label class="sr-only" for="contact-email" data-en="Your email" data-ta="உங்கள் மின்னஞ்சல்">Your email</label>
+          <input type="email" id="contact-email" placeholder="you@example.com" autocomplete="email" />
+          <small class="error-text" id="error-contact" hidden data-en="Enter a valid email and a message." data-ta="செல்லுபடியாகும் மின்னஞ்சல் மற்றும் செய்தி உள்ளிடவும்.">Enter a valid email and a message.</small>
+        </div>
+        <div class="field">
+          <label class="sr-only" for="contact-message" data-en="Message" data-ta="செய்தி">Message</label>
+          <textarea id="contact-message" rows="3" maxlength="500" placeholder="Your message..." data-en-ph="Your message..." data-ta-ph="உங்கள் செய்தி..."></textarea>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit" data-en="Submit Message" data-ta="செய்தி சமர்ப்பிக்க">Submit Message</button>
+        <p class="form-success" id="contact-status" role="status" hidden></p>
+      </form>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> HEALTHIFY. <span data-en="Made for healthier everyday choices." data-ta="ஆரோக்கியமான நாள் தேர்வுகளுக்காக உருவாக்கப்பட்டது.">Made for healthier everyday choices.</span></p>
+      <p class="footer-disclaimer" data-en="Educational use only. Not a medical device. Always consult a qualified professional for health concerns." data-ta="கல்வி நோக்கத்திற்கு மட்டுமே. மருத்துவ சாதனம் அல்ல. உடல்நல கவலைகளுக்கு தகுதியான நிபுணரை அணுகவும்.">Educational use only. Not a medical device. Always consult a qualified professional for health concerns.</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       MODALS - condition details, recipe details, confirm dialog
+  ============================================================ -->
+  <div class="modal" id="condition-modal" role="dialog" aria-modal="true" aria-labelledby="condition-modal-title" hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">×</button>
+      <span class="eyebrow" data-en="HEALTH LIBRARY" data-ta="உடல்நல நூலகம்">HEALTH LIBRARY</span>
+      <h2 id="condition-modal-title"></h2>
+      <div id="condition-modal-body"></div>
+      <div class="modal-disclaimer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg>
+        <span data-en="This is general educational information, not medical advice. It does not diagnose or treat any condition. For personal guidance, please consult a qualified healthcare professional." data-ta="இது பொதுவான கல்வித் தகவல் மட்டுமே, மருத்துவ ஆலோசனை அல்ல. எந்த நோயையும் கண்டறிந்து சிகிச்சை செய்யும் தன்மை கொண்டது அல்ல. தனிப்பட்ட ஆலோசனைக்கு தகுதியான மருத்துவ நிபுணரை அணுகவும்.">This is general educational information, not medical advice. It does not diagnose or treat any condition. For personal guidance, please consult a qualified healthcare professional.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="recipe-modal-title" hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel modal-panel-wide" role="document">
+      <button class="modal-close" type="button" data-modal-close aria-label="Close dialog">×</button>
+      <div id="recipe-modal-content"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="confirm-modal" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-panel modal-panel-small" role="document">
+      <h2 id="confirm-title" data-en="Are you sure?" data-ta="உறுதியற்றீர்களா?">Are you sure?</h2>
+      <p id="confirm-message" data-en="This will permanently delete your saved data on this device." data-ta="இந்த சாதனத்தில் சேமித்துள்ள உங்கள் தரவு நிரந்தரமாக அழிக்கப்படும்.">This will permanently delete your saved data on this device.</p>
+      <div class="button-row button-row-end">
+        <button class="btn btn-ghost" id="confirm-no" type="button" data-en="Cancel" data-ta="ரத்து செய்">Cancel</button>
+        <button class="btn btn-danger" id="confirm-yes" type="button" data-en="Yes, reset" data-ta="ஆம், அழிக்க">Yes, reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- toast notifications + back to top -->
+  <div class="toast-container" id="toast-container" aria-live="polite" aria-atomic="true"></div>
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
